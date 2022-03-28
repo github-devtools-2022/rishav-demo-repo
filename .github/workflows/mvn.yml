@@ -45,7 +45,7 @@ jobs:
       - name: Create
         uses: atlassian/gajira-create@master
         with: 
-           project: "Demo Project"
+           project: DP
            issuetype: Bug
            summary: |
               Build failed for ${{ github.repository }}
