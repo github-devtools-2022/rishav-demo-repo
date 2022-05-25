@@ -48,7 +48,7 @@ jobs:
       - name: Create
         uses: atlassian/gajira-create@master
         with: 
-           project: DP
+           project: PROJ
            issuetype: Bug
            summary: |
               Build failed for the commit ${{ env.GITHUB_MSG }} for ${{ github.repository }}
