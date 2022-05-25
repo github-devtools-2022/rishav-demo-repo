@@ -1,6 +1,6 @@
 package com.javatestdemo;
 
-publi class MySum {
+public class MySum {
 	
 	static int sumofnumbers (int numbers) {
 		int output = 0;
